@@ -3,7 +3,7 @@
 
 Name: kcm-touchpad5
 Summary: Systemsettings module for configuring touchpads
-Version: 5.2.0
+Version: 5.1.95
 %if %date
 Release: 1.%date.1
 # Packaged from git for the time being -- no download URL available
@@ -32,6 +32,7 @@ BuildRequires: pkgconfig(xcb-xtest) pkgconfig(xcb-xv) pkgconfig(xcb-xvmc)
 BuildRequires: cmake(KF5Completion) cmake(KF5Config) cmake(KF5ConfigWidgets)
 BuildRequires: cmake(KF5CoreAddons) cmake(KF5DBusAddons) cmake(KF5GlobalAccel)
 BuildRequires: cmake(KF5I18n) cmake(KF5XmlGui) cmake(KDED)
+BuildRequires: cmake(KF5KCMUtils) cmake(KF5Notifications) cmake(KF5NotifyConfig)
 BuildRequires: cmake ninja extra-cmake-modules5
 
 %description
