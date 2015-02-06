@@ -29,10 +29,12 @@ BuildRequires: pkgconfig(xcb-res) pkgconfig(xcb-sync) pkgconfig(xcb-xevie)
 BuildRequires: pkgconfig(xcb-xf86dri) pkgconfig(xcb-xinerama)
 BuildRequires: pkgconfig(xcb-xinput) pkgconfig(xcb-xprint)
 BuildRequires: pkgconfig(xcb-xtest) pkgconfig(xcb-xv) pkgconfig(xcb-xvmc)
+BuildRequires: pkgconfig(xorg-server)
 BuildRequires: cmake(KF5Completion) cmake(KF5Config) cmake(KF5ConfigWidgets)
 BuildRequires: cmake(KF5CoreAddons) cmake(KF5DBusAddons) cmake(KF5GlobalAccel)
-BuildRequires: cmake(KF5I18n) cmake(KF5XmlGui) cmake(KDED)
+BuildRequires: cmake(KF5I18n) cmake(KF5XmlGui) cmake(KDED) cmake(KF5Plasma)
 BuildRequires: cmake(KF5KCMUtils) cmake(KF5Notifications) cmake(KF5NotifyConfig)
+BuildRequires: cmake(KF5Init)
 BuildRequires: cmake ninja extra-cmake-modules5
 
 %description
