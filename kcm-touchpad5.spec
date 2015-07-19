@@ -10,7 +10,7 @@ Release: 1.%date.1
 Source0: %{name}-%date.tar.xz
 %else
 Source0: ftp://ftp.kde.org/pub/kde/%{stable}/plasma/%{version}/kcm-touchpad-%{version}.tar.xz
-Release: 1
+Release: 2
 %endif
 URL: http://kde.org/
 Group: Graphical desktop/KDE
