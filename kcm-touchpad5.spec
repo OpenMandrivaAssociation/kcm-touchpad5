@@ -12,7 +12,7 @@ Source0: %{name}-%date.tar.xz
 Source0: ftp://ftp.kde.org/pub/kde/%{stable}/plasma/%{version}/kcm-touchpad-%{version}.tar.xz
 Release: 2
 %endif
-URL: http://kde.org/
+URL: https://kde.org/
 Group: Graphical desktop/KDE
 License: GPLv2
 BuildRequires: pkgconfig(Qt5Core) pkgconfig(Qt5Gui) pkgconfig(Qt5Declarative)
